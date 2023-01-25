@@ -12,17 +12,19 @@ class Bank:
 
     def minus(self, wyplata):
         # self.stan_konta -= wyplata
-        self.stan_konta = self.stan_konta - wyplata
+        prowizja = 0.02 * wyplata
+        self.stan_konta = self.stan_konta - wyplata - prowizja
 
-hajs = Bank(stan_konta= 6000)
-doplata = 2000
-wyplata = 500
 
-print('Stan konta wynosi ', hajs.stan_konta)
+# hajs = Bank(stan_konta= 6000)
+# doplata = 2000
+# wyplata = 500
 
-hajs.plus(doplata)
-print('Stan konta wynosi ', hajs.stan_konta)
+# print('Stan konta wynosi ', hajs.stan_konta)
 
-hajs.minus(wyplata)
-print('Stan konta wynosi ', hajs.stan_konta)
+# hajs.plus(doplata)
+# print('Stan konta wynosi ', hajs.stan_konta)
+
+# hajs.minus(wyplata)
+# print('Stan konta wynosi ', hajs.stan_konta)
 
