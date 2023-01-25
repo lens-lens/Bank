@@ -16,6 +16,6 @@ class TestBank:
         hajs.minus(30)
         assert hajs.stan_konta == 69.4
 
-#TERMINAL 1: Pip3 install pytest
-#TERMINAL 2: python3 -m pytest test_bank.py
-#TERMINAL 3: python3 -m pytest test_bank.py -vvv
+#TERMINAL 1: Pip3 install pytest (pip)
+#TERMINAL 2: python3 -m pytest test_bank.py (pytest)
+#TERMINAL 3: python3 -m pytest test_bank.py -vvv (pytest -vvv)
